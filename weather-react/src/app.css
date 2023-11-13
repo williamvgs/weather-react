@@ -23,3 +23,48 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  background-color: #333;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.clock {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.navbar {
+  background-color: #222;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar li:hover {
+  color: #61dafb;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
